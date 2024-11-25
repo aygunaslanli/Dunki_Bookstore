@@ -1,0 +1,143 @@
+.wrap-carousel{
+  background-color: #fcedec;
+  height: 90vh;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 60px; 
+    height: 60px; 
+    background-color: black; 
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%); 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.3s ease, visibility 0.3s ease; 
+    border: none; 
+  }
+  
+  section:hover .carousel-control-prev,
+  section:hover .carousel-control-next {
+    opacity: 1; 
+    visibility: visible; 
+  }
+  
+  .carousel-control-prev {
+    left: 20px;
+  }
+  
+  .carousel-control-next {
+    right: 20px;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none; 
+    width: 20px;
+    height: 20px;
+    border: solid white; 
+    border-width: 0 2px 2px 0; 
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(135deg); 
+  }
+  
+  .carousel-control-next-icon {
+    transform: rotate(-45deg);
+  }
+  
+ 
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #dd321e;
+
+  }
+  .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover{
+    border: solid white; 
+    border-width: 0 2px 2px 0;
+    
+  }
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-text h3{
+   color: #dd321e;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   text-align: center;
+   line-height: 28px;
+   
+  }
+  .carousel-text h1{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 62px;
+    text-align: center;
+    line-height: 80px;
+    
+   }
+   .wrap-btn{
+    display: flex;
+    justify-content: center;
+   }
+
+  .btn-carousel{
+    width: 171px;
+    height: 52px;
+    background-color: #dd321e;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .btn-carousel:hover{
+    background-color: #000;
+    color: #fff;
+  }
+  .carousel-image img{
+    width: 597px;
+    height: 523px;
+  }
+
+
+  @media (max-width: 768px){
+    .wrap-carousel{
+      height: auto;
+      flex-direction: column;
+      
+      
+    }
+   
+    .carousel-text h3{
+      font-weight: 500;
+      font-size: 17px;
+     }
+     .carousel-text h1{
+      color: #000;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 50px;
+      
+      
+      
+     }
+     .carousel-image img{
+      width: 342px;
+      height: 300px;
+      margin: auto;
+     }
+     .carousel-control-prev, .carousel-control-next {
+      width: 40px; 
+      height: 40px; 
+     }
+     .carousel-control-prev-icon, .carousel-control-next-icon {
+      background-image: none; 
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+
+ 
+

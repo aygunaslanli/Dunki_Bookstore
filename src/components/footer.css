@@ -1,0 +1,38 @@
+footer{
+    width: 100%;
+    background-color: #282828;
+    color: white;
+    padding-top: 80px;
+}
+
+.footer-about h3{
+    padding-bottom: 30px;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+}
+.footer-about p{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.footer-information h3{
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 40px;
+}
+
+.footer-information ul{
+    list-style: none; 
+    padding: 0; 
+}
+.footer-information li{
+    margin-bottom: 11px;
+}
+.footer-information a{
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.footer-information a:hover{
+    color: #dd321e;
+}

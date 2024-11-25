@@ -1,0 +1,200 @@
+.about{
+    width: 100%;
+    height: 280px;
+    background-image: url("https://cdn.discordapp.com/attachments/1091845697462083585/1289269002828255345/bg-breadcrumb.jpg?ex=67358293&is=67343113&hm=15dcb9146a790ae68d8ab5dd9ddfb5063d96c8719213422a7f04c711cb22b0d5&");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-page-title {
+   text-align: center;
+    
+}
+
+.about-page-title h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about-story-area{
+    padding: 85px 0 110px 0;
+    
+}
+
+.con-about{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.about-img{
+    position: relative;
+   
+}
+.about-img img{
+    width: 635px;
+    
+}
+.circle-img{
+    background-color: #dd321e;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: absolute;
+    right: -65px;
+    bottom: -30px;
+    padding: 52px 0 0;
+    text-align: center;
+    color: #fff;
+} 
+.circle-img h3{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif ;
+}
+
+.circle-img h4{
+    font-size: 130px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    line-height: 0.85;
+    
+    
+}
+.circle-img h5{
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif ;
+}
+
+.about-story-title{
+     padding-left: 30px;
+}
+.about-story-title h2{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+.about-story-title h4{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+   
+}
+.about-story-title p{
+   
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 48px;
+
+}
+.about-story-title button{
+    width: 207px;
+    height: 54px;
+    background-color:#000 ;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.about-story-title button:hover{
+    background-color: #dd321e;
+    color: #fff;
+}
+.about-founder-title{
+    align-items: center;
+    
+}
+.about-founder-title h2{
+font-size: 35px;
+font-weight: 400;
+font-family: "Montserrat", sans-serif;
+}
+.about-founder-title p{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.client-area{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.client-area-title{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.client-area-title h2{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.client-img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.card-client{
+   text-align: center;
+}
+.client-text{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+.client-title{
+    justify-content: center;
+    text-align: center;
+}
+
+.offer-area{
+    padding: 150px 0 150px 0;
+    background: #a1d0b9 url("https://cdn.discordapp.com/attachments/1091845697462083585/1289549968775970848/Untitled-1_9099b966-c624-43c5-8147-852578ddccad.webp?ex=6735df7f&is=67348dff&hm=0a2ecd4d76fa8c0a65e8d309a8a61d3549bcb47b8c424e332a4d7795d78ce6c3&")no-repeat scroll center / cover;
+}
+
+.offer-area h2{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.offer-area p{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+.input-group{
+    width:630px;
+    
+}
+.form-control{
+    height: 52px;
+    border-radius: 0;
+}
+.offer-input-btn{
+    width: 170px;
+    background-color: #000;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+.offer-input-btn:hover{
+    background-color: #dd321e;
+    
+}
+
+.shipping-area{
+    padding: 80px 0 80px 0;
+    
+}
+.shipping-area img{
+    width: 63px;
+    height: 63px;
+}

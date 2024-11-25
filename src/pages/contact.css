@@ -1,0 +1,46 @@
+.contact{
+    width: 100%;
+    height: 280px;
+    background-image: url("https://cdn.discordapp.com/attachments/1091845697462083585/1289269002828255345/bg-breadcrumb.jpg?ex=67358293&is=67343113&hm=15dcb9146a790ae68d8ab5dd9ddfb5063d96c8719213422a7f04c711cb22b0d5&");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact-page-title {
+    text-align: center;
+     
+ }
+ 
+ .contact-page-title h1{
+     font-size: 40px;
+     font-weight: 400;
+     font-family: "Montserrat", sans-serif;
+ }
+
+ .map-area{
+    padding: 100px 0 ;
+ }
+ iframe{
+    width: 100%;
+    height: 70vh;
+    
+ }
+
+ .contact-info{
+   width: 565px;
+   padding: 25px 15px;
+   background-color: #f6f6f6;
+   margin-bottom:8px;
+ }
+
+ .form-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+ }
+
+ 
+ 
